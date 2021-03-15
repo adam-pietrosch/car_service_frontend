@@ -1,8 +1,8 @@
 module.exports = {
   "sidebar": {
-    "title": "Creative Tim",
+    "title": "AutoServis pietr",
     "shortTitle": "CT",
-    "dashboard": "Dashboard",
+    "dashboard": "Hlavní panel",
     "pages": "Pages",
     "pricing": "Pricing",
     "rtl": "RTL Support",

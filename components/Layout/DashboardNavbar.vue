@@ -97,7 +97,7 @@
           <p class="d-lg-none">Log out</p>
         </template>
         <li class="nav-link">
-          <a href="#" class="nav-item dropdown-item">Profile</a>
+          <a href="/user" class="nav-item dropdown-item">Profile</a>
         </li>
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item">Settings</a>
@@ -125,7 +125,7 @@ export default {
       const { path } = this.$route;
       let parts = path.split('/')
       if(parts == ','){
-        return 'Dashboard';
+        return 'Uvodní panel';
       }
       return parts.map(p => this.capitalizeFirstLetter(p)).join(' ');
     },
